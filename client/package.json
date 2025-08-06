@@ -26,6 +26,7 @@
     "http-proxy-middleware": "^2.0.6",
     "prop-types": "^15.8.1",
     "storybook": "^9.0.12",
+    "storybook-addon-remix-react-router": "^5.0.0",
     "tailwindcss": "^4.1.10",
     "vite": "^6.3.5",
     "vite-plugin-istanbul": "^7.0.0"

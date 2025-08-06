@@ -11,7 +11,7 @@ export const useAuthContext = () => {
 
 // Creating a provider to wrap components that needs to access Auth/User's data
 // Note: A provider is a special component that pass the context to its children to access the context's value
-const AuthProvider = ({ children }) => {
+export const AuthProvider = ({ children }) => {
   const auth = useProvideAuth();
   return <AuthContext.Provider value={auth}>{children}</AuthContext.Provider>;
 };
